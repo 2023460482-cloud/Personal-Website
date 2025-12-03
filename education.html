@@ -2,8 +2,7 @@
 <html>
 <head><tittle></tittle></head>
 <body>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Nurul Fatihah | Profile</title>
 
     <style>
@@ -50,31 +49,31 @@
             color: goldenrod;
         }
 
-        .hero {
+        .content {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 80px 60px;
         }
 
-        .hero-text {
+        .content-text {
             width: 55%;
         }
 
-        .hero-text h1 {
+        .content-text h1 {
             font-size: 48px;
             font-weight: 700;
             colour: dimgray;
         }
 
-        .hero-text .job-title {
+        .content-text .job-title {
             color: goldenrod;
             font-size: 24px;
             margin-top: 5px;
             font-weight: bold;
         }
 
-        .hero-text p {
+        .content-text p {
             margin-top: 20px;
             line-height: 1.7;
             max-width: dimgray;
@@ -101,7 +100,7 @@
             color: goldenrod;
         }
 
-        .hero-image img {
+        .content-image img {
             width: 320px;
             border-radius: 20px;
         }
@@ -118,7 +117,6 @@
 
 <body>
 
-    <!-- NAVIGATION -->
     <header>
         <div class="logo">Nurul Fatihah</div>
         <nav>
@@ -134,260 +132,80 @@
         </nav>
     </header>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lavenderblush;
+            padding: 20px;
+            text-align: center;
+        }
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Biodata</title>
-<style>
+        h1 {
+            margin-bottom: 25px;
+            color: dimgray;
+        }
 
-.biodata {
-    background-color: white;
-    padding: 40px;
-    margin: 40px auto; 
-    border-radius: 15px;
-    max-width: 800px;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 4px 8px lightgray; 
-    text-align: center; 
-}
+        .edu-box {
+            background-color: white;
+            width: 90%;
+            max-width: 650px;
+            margin: 20px auto;
+            padding: 20px;
+            border-left: 6px solid lightpink;
+            border-radius: 8px;
+            text-align: left;
+            box-shadow: 0 2px 6px lightgray;
+        }
 
+        .year {
+            font-weight: bold;
+            font-size: 18px;
+            color: indianred;
+        }
 
-.section-title {
-    font-size: 36px;
-    font-weight: bold;
-    color: deeppink; 
-    margin-bottom: 30px;
-    text-transform: uppercase; 
-    letter-spacing: 2px; 
-    border-bottom: 2px solid pink; 
-    display: inline-block; 
-    padding-bottom: 5px;
-}
+        .school {
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 5px;
+            color: dimgray;
+        }
 
-
-.bio-container {
-    display: flex;
-    gap: 30px;
-    justify-content: center; 
-    align-items: flex-start;
-    flex-wrap: wrap; 
-}
-
-
-.bio-image img {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid lightpink; 
-}
-
-
-.bio-details table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 16px;
-    margin: auto; 
-}
-
-.bio-details th, .bio-details td {
-    border: 1px solid gray;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-.bio-details th {
-    color: pink;
-    font-weight: bold;
-    width: 150px;
-    background-color: lavenderblush;
-}
-
-.bio-details td {
-    color: black;
-}
-
-.bio-details tr:hover {
-    background-color: mistyrose;
-}
-</style>
+        .desc {
+            margin-top: 8px;
+            line-height: 1.6;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
 </head>
-<body>
 
-
-  <body>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Education | Nurul Fatihah</title>
-
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body {
-        background-color: lavenderblush;
-        color: dimgray;
-        padding: 20px;
-        text-align: center;
-    }
-
-    h1 {
-        margin-bottom: 20px;
-        color: dimgray;
-    }
-
-    /* TIMELINE WRAPPER */
-    .timeline {
-        position: relative;
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 20px 0;
-    }
-
-    .timeline::after {
-        content: '';
-        position: absolute;
-        width: 4px;
-        background-color: lightpink;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .container {
-        padding: 20px 40px;
-        position: relative;
-        width: 50%;
-    }
-
-    .left {
-        left: 0;
-    }
-
-    .right {
-        left: 50%;
-    }
-
-    .content {
-        background-color: white;
-        padding: 25px;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px lightgray;
-        position: relative;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .content:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 18px gray;
-    }
-
-    .container::after {
-        content: '';
-        position: absolute;
-        width: 18px;
-        height: 18px;
-        background-color: pink;
-        border-radius: 50%;
-        top: 30px;
-        right: -9px;
-        border: 3px solid white;
-    }
-
-    .right::after {
-        left: -9px;
-    }
-
-    .year {
-        font-weight: bold;
-        font-size: 20px;
-        color: goldenrod;
-        margin-bottom: 8px;
-    }
-
-    .school {
-        font-size: 18px;
-        font-weight: bold;
-        color: dimgray;
-    }
-
-    .desc {
-        margin-top: 10px;
-        line-height: 1.6;
-        font-size: 15px;
-    }
-
-    @media screen and (max-width: 600px) {
-        .timeline::after {
-            left: 20px;
-        }
-
-        .container {
-            width: 100%;
-            padding-left: 50px;
-            padding-right: 25px;
-        }
-
-        .right {
-            left: 0;
-        }
-
-        .container::after {
-            left: 12px;
-        }
-    }
-</style>
-
-</head>
 <body>
 
 <h1 style="margin-top: 40px; margin-bottom: 30px;">My Education</h1>
 
-<div class="timeline">
+<div class="edu-box">
+    <div class="year">2023 – Present 🎓</div>
+    <div class="school">Universiti Teknologi MARA (UiTM)</div>
+    <p class="desc">
+        Currently pursuing my Diploma/Degree in <b>Information Management</b>.
+        Learning about archives, records, libraries, and information systems.
+    </p>
+</div>
 
-    
-    <div class="container left">
-        <div class="content">
-            <div class="year">2023 – Present 🎓</div>
-            <div class="school">Universiti Teknologi MARA (UiTM)</div>
-            <p class="desc">
-                Currently pursuing my Diploma/Degree in <b>Information Management</b>.  
-                I have gained experience in archives, libraries, records management,  
-                and completed various academic projects.
-            </p>
-        </div>
-    </div>
+<div class="edu-box">
+    <div class="year">2018 – 2023 🏫</div>
+    <div class="school">Sekolah Menengah Kebangsaan Al-Mashoor</div>
+    <p class="desc">
+        Finished secondary school and actively joined various school programs.
+    </p>
+</div>
 
-    
-    <div class="container right">
-        <div class="content">
-            <div class="year">2018 – 2023 🏫</div>
-            <div class="school">Sekolah Menengah Kebangsaan Al-Mashoor</div>
-            <p class="desc">
-                Completed my secondary education with active participation in  
-                co-curricular activities, competitions and school programs.
-            </p>
-        </div>
-    </div>
-
-    
-    <div class="container left">
-        <div class="content">
-            <div class="year">2010 – 2017 📚</div>
-            <div class="school">Sekolah Rendah Kebangsaan Dato' Keramat</div>
-            <p class="desc">
-                My primary school journey where I built my foundation in learning,  
-                discipline and teamwork while joining various school activities.
-            </p>
-        </div>
-    </div>
-
+<div class="edu-box">
+    <div class="year">2010 – 2017 📚</div>
+    <div class="school">Sekolah Rendah Kebangsaan Dato' Keramat</div>
+    <p class="desc">
+        Completed primary education and built my foundation in learning.
+    </p>
 </div>
 
 </body>
